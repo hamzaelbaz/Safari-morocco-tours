@@ -13,7 +13,7 @@ app.post('/form', async (req, res) => {
     try {
         const response = await fetch('/.netlify/functions/sendEmail', {
             method: 'POST',
-            body: JSON.stringify({firstNames, lastNames, emails, messages }),
+            body: JSON.stringify({firstNames, lastNames, emails, messages, tele }),
             headers: { 'Content-Type': 'application/json' },
         });
 
