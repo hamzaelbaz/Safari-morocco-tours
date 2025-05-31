@@ -20,6 +20,7 @@ form.addEventListener("submit", async e => {
             messages: o,
             tele: p
         }), firstName.value = "", lastName.value = "", email.value = "", message.value = "", tel.value =""
+        alert("Message sent successfully!");
     } catch (s) {
         console.error("oups! elle y a une erreur:", s)
     }
