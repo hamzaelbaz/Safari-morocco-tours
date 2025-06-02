@@ -3663,11 +3663,6 @@ blockquote {
   padding-top: 0;
   padding-bottom: 0;
 }
-
-.section.no-top-padding {
-  padding-top: 0;
-}
-
 .nav-link {
   color: #995f3a;
   letter-spacing: 3px;
@@ -4315,37 +4310,6 @@ blockquote {
   display: grid;
   position: relative;
 }
-
-.team-wrapper {
-  z-index: 10;
-  min-height: 600px;
-  grid-column-gap: 36px;
-  grid-row-gap: 36px;
-  grid-template-rows: auto 1fr;
-  grid-template-columns: 1fr;
-  grid-auto-columns: 1fr;
-  padding-top: 100px;
-  padding-bottom: 200px;
-  padding-left: 80px;
-  display: grid;
-  position: relative;
-}
-
-.team-box {
-  z-index: 10;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  background-color: #fff;
-  border: 1px solid rgba(192, 192, 211, .2);
-  border-radius: 12px;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-auto-columns: 1fr;
-  padding: 0;
-  display: grid;
-  position: relative;
-}
-
 .team-card {
   grid-column-gap: 16px;
   grid-row-gap: 24px;
@@ -4614,30 +4578,6 @@ blockquote {
   color: #995f3a;
   background-color: #e6e6f3;
 }
-
-.featured-journal-wrapper {
-  z-index: 10;
-  min-height: 400px;
-  grid-column-gap: 48px;
-  grid-row-gap: 60px;
-  box-shadow: none;
-  background-color: #fff;
-  border-radius: 5px;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr .75fr;
-  grid-auto-columns: 1fr;
-  margin-top: -60px;
-  margin-bottom: 60px;
-  margin-left: 80px;
-  padding: 36px 36px 0;
-  display: grid;
-  position: relative;
-}
-
-.featured-journal-wrapper.full-width {
-  margin-left: 36px;
-}
-
 .vacations-section {
   padding-top: 0;
   padding-bottom: 0;
@@ -4958,21 +4898,6 @@ blockquote {
   padding: 36px;
   display: grid;
 }
-
-.checkout-details {
-  width: 100%;
-  grid-column-gap: 16px;
-  grid-row-gap: 80px;
-  background-color: #fff;
-  border: 1px solid rgba(192, 192, 211, .2);
-  border-radius: 12px;
-  grid-template-rows: auto 1fr;
-  grid-template-columns: 1fr;
-  grid-auto-columns: 1fr;
-  padding: 36px 60px 60px;
-  display: grid;
-}
-
 .block-header {
   background-color: #fff;
   border-style: none;
@@ -4997,45 +4922,6 @@ blockquote {
   padding-top: 36px;
   display: grid;
 }
-
-.order-top-bar {
-  min-height: 80px;
-  grid-column-gap: 16px;
-  grid-row-gap: 16px;
-  grid-template-rows: auto;
-  grid-template-columns: auto 1fr;
-  grid-auto-columns: 1fr;
-  display: grid;
-}
-
-.payment-tab-content {
-  grid-column-gap: 16px;
-  grid-row-gap: 36px;
-  grid-template-rows: auto auto;
-  grid-template-columns: 1fr;
-  grid-auto-columns: 1fr;
-  display: grid;
-}
-
-.payment-info-wrapper {
-  grid-column-gap: 16px;
-  grid-row-gap: 60px;
-  grid-template-rows: auto auto;
-  grid-template-columns: 1fr;
-  grid-auto-columns: 1fr;
-  display: grid;
-  position: relative;
-}
-
-.payment-tabs-intro {
-  grid-column-gap: 16px;
-  grid-row-gap: 16px;
-  grid-template-rows: auto;
-  grid-template-columns: auto 1fr;
-  grid-auto-columns: 1fr;
-  display: grid;
-}
-
 .secure-notice {
   max-width: 250px;
   grid-column-gap: 18px;
@@ -5115,44 +5001,6 @@ blockquote {
   height: 48px;
   border-radius: 3px;
 }
-
-.order-item {
-  grid-column-gap: 24px;
-  grid-row-gap: 24px;
-  grid-template-rows: auto;
-  grid-template-columns: .5fr 1fr;
-  grid-auto-columns: 1fr;
-  display: grid;
-}
-
-.order-item-info {
-  grid-column-gap: 16px;
-  grid-row-gap: 18px;
-  grid-template-rows: auto 1fr;
-  grid-template-columns: 1fr;
-  grid-auto-columns: 1fr;
-  margin-left: 0;
-  margin-right: 0;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  display: grid;
-}
-
-.order-item-info-top {
-  grid-column-gap: 16px;
-  grid-row-gap: 6px;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr;
-  grid-auto-columns: 1fr;
-  margin-left: 0;
-  margin-right: 0;
-  display: grid;
-}
-
-.order-items {
-  margin-bottom: 0;
-}
-
 .right-order-info {
   grid-column-gap: 16px;
   grid-row-gap: 36px;
@@ -5272,23 +5120,6 @@ blockquote {
   display: grid;
   position: relative;
 }
-
-.hero-video-button {
-  z-index: 25;
-  width: 300px;
-  height: 300px;
-  border: 1px rgba(192, 192, 211, .2);
-  border-radius: 100%;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr;
-  grid-auto-columns: 1fr;
-  justify-content: center;
-  align-items: center;
-  margin-top: -36px;
-  display: flex;
-  position: relative;
-}
-
 .home-hero-intro {
   z-index: 20;
   max-width: 550px;
@@ -5760,33 +5591,6 @@ blockquote {
   right: 0%;
   overflow: hidden;
 }
-
-.journal-post-info {
-  z-index: 10;
-  min-height: 150px;
-  grid-column-gap: 16px;
-  grid-row-gap: 24px;
-  background-color: #fff;
-  border-radius: 12px;
-  grid-template-rows: auto auto;
-  grid-template-columns: 1fr;
-  grid-auto-columns: 1fr;
-  margin-bottom: -60px;
-  padding: 0 36px 36px;
-  display: grid;
-  position: relative;
-  box-shadow: 0 12px 36px -8px rgba(53, 64, 117, .1);
-}
-
-.journal-right-wrapper {
-  grid-column-gap: 16px;
-  grid-row-gap: 24px;
-  grid-template-rows: auto 1fr;
-  grid-template-columns: 1fr;
-  grid-auto-columns: 1fr;
-  display: grid;
-}
-
 .recent-journal-list {
   grid-column-gap: 16px;
   grid-row-gap: 12px;
@@ -5813,26 +5617,6 @@ blockquote {
 .journal-list-item:hover {
   box-shadow: 0 6px 24px -4px rgba(53, 64, 117, .12);
 }
-
-.journal-list-image {
-  min-height: 100px;
-  border-radius: 5px;
-  position: relative;
-  overflow: hidden;
-}
-
-.journal-list-item-content {
-  grid-column-gap: 16px;
-  grid-row-gap: 24px;
-  grid-template-rows: auto auto;
-  grid-template-columns: 1fr;
-  grid-auto-columns: 1fr;
-  padding-top: 18px;
-  padding-bottom: 18px;
-  padding-right: 18px;
-  display: grid;
-}
-
 .journal-category-tag {
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -6194,19 +5978,6 @@ blockquote {
   display: flex;
   position: relative;
 }
-
-.journal-intro {
-  max-width: 900px;
-  grid-column-gap: 16px;
-  grid-row-gap: 16px;
-  text-align: center;
-  grid-template-rows: auto auto;
-  grid-template-columns: 1fr;
-  grid-auto-columns: 1fr;
-  justify-items: center;
-  display: grid;
-}
-
 .nav-button-toggle {
   width: 100%;
   height: 100%;
@@ -6355,21 +6126,6 @@ blockquote {
   left: 0%;
   right: 0%;
 }
-
-.map-section {
-  padding-top: 100px;
-  padding-bottom: 140px;
-}
-
-.map-wrapper {
-  min-height: 350px;
-  background-color: rgba(192, 192, 211, .2);
-  border-radius: 12px;
-  margin-left: 36px;
-  position: relative;
-  overflow: hidden;
-}
-
 .featured-location-price {
   grid-column-gap: 7px;
   grid-row-gap: 4px;
@@ -6486,36 +6242,6 @@ blockquote {
   position: relative;
   overflow: hidden;
 }
-
-.all-journal-posts {
-  z-index: 10;
-  min-height: 800px;
-  grid-column-gap: 16px;
-  grid-row-gap: 48px;
-  grid-template-rows: auto 1fr;
-  grid-template-columns: 1fr;
-  grid-auto-columns: 1fr;
-  margin-left: 80px;
-  padding-top: 80px;
-  padding-bottom: 140px;
-  display: grid;
-  position: relative;
-}
-.team-member-vacations {
-  z-index: 10;
-  min-height: 500px;
-  grid-column-gap: 16px;
-  grid-row-gap: 48px;
-  grid-template-rows: auto auto;
-  grid-template-columns: 1fr;
-  grid-auto-columns: 1fr;
-  margin-left: 80px;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  display: grid;
-  position: relative;
-}
-
 .slider-arrow-icon {
   width: 16px;
 }
@@ -6657,16 +6383,6 @@ blockquote {
   margin-left: 9px;
   display: flex;
 }
-
-.journal-cards {
-  grid-column-gap: 24px;
-  grid-row-gap: 24px;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-auto-columns: 1fr;
-  display: grid;
-}
-
 .journal-card {
   height: 100%;
   grid-column-gap: 24px;
@@ -6696,21 +6412,6 @@ blockquote {
   position: relative;
   overflow: hidden;
 }
-
-.journal-card-info {
-  z-index: 10;
-  grid-column-gap: 16px;
-  grid-row-gap: 24px;
-  grid-template-rows: auto auto;
-  grid-template-columns: 1fr;
-  grid-auto-columns: 1fr;
-  margin-top: -12px;
-  padding-left: 36px;
-  padding-right: 36px;
-  display: grid;
-  position: relative;
-}
-
 .pagination {
   margin-top: 48px;
 }
@@ -6846,23 +6547,6 @@ blockquote {
 .large-journal-list, .large-journal-item {
   height: 100%;
 }
-.team-intro-wrapper {
-  grid-column-gap: 60px;
-  grid-row-gap: 16px;
-  grid-template-rows: auto;
-  grid-template-columns: minmax(35%, 470px) 1fr;
-  grid-auto-columns: 1fr;
-  display: grid;
-}
-
-.portrait-image {
-  min-height: 400px;
-  min-width: 200px;
-  border-radius: 5px;
-  position: relative;
-  overflow: hidden;
-}
-
 .hero-collection-wrapper {
   height: 100%;
 }
@@ -7317,18 +7001,6 @@ blockquote {
   justify-content: center;
   display: flex;
 }
-
-.invoice-grid {
-  grid-column-gap: 80px;
-  grid-row-gap: 16px;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr .8fr;
-  grid-auto-columns: 1fr;
-  display: grid;
-}
-.order-summary {
-  margin-bottom: 0;
-}
 ._404-page-info {
   z-index: 10;
   grid-column-gap: 16px;
@@ -7347,18 +7019,6 @@ blockquote {
   padding: 120px 48px 48px;
   display: flex;
 }
-
-.order-confirmation-content {
-  width: 100%;
-  max-width: 1300px;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr .5fr;
-  grid-auto-columns: 1fr;
-  margin-left: 0;
-  margin-right: 0;
-  display: block;
-}
-
 .order-left {
   width: 100%;
   grid-column-gap: 16px;
@@ -7373,24 +7033,6 @@ blockquote {
   padding: 36px;
   display: grid;
 }
-
-.order-sticky {
-  top: 101px;
-}
-
-.confirmation-grid {
-  grid-column-gap: 48px;
-  grid-row-gap: 16px;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr .55fr;
-  grid-auto-columns: 1fr;
-  display: grid;
-}
-
-.paypall-order-items {
-  margin-bottom: 36px;
-}
-
 .invoice-details {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
@@ -7540,14 +7182,6 @@ blockquote {
   grid-auto-columns: 1fr;
   display: grid;
 }
-
-.invoice-vacation {
-  z-index: 10;
-  color: #fff;
-  padding-left: 36px;
-  position: relative;
-}
-
 .dropdown-button {
   color: #fff;
   background-color: #995f3a;
@@ -7850,14 +7484,6 @@ blockquote {
   .team-image {
     min-height: 275px;
   }
-
-  .featured-journal-wrapper {
-    grid-column-gap: 60px;
-    padding-top: 48px;
-    padding-left: 48px;
-    padding-right: 48px;
-  }
-
   .popular-vacations {
     padding-top: 48px;
     padding-left: 48px;
@@ -7872,7 +7498,7 @@ blockquote {
     max-width: 700px;
   }
 
-  .popular-vacations-wrapper, .journal-cards {
+  .popular-vacations-wrapper {
     grid-column-gap: 24px;
     grid-row-gap: 24px;
   }
@@ -7880,11 +7506,6 @@ blockquote {
   .form-block {
     padding: 60px;
   }
-
-  .team-intro-wrapper {
-    grid-column-gap: 80px;
-  }
-
   .steps-intro {
     padding-left: 18px;
     padding-right: 18px;
@@ -7911,11 +7532,6 @@ blockquote {
     padding-left: 36px;
     padding-right: 36px;
   }
-
-  .featured-journal-wrapper {
-    grid-column-gap: 80px;
-  }
-
   .journal-post {
     padding: 60px;
   }
@@ -7924,7 +7540,7 @@ blockquote {
     max-width: 750px;
   }
 
-  .popular-vacations-wrapper, .journal-cards {
+  .popular-vacations-wrapper {
     grid-column-gap: 36px;
     grid-row-gap: 36px;
   }
@@ -7970,11 +7586,6 @@ blockquote {
     padding-top: 80px;
     padding-bottom: 80px;
   }
-
-  .section.no-top-padding {
-    padding-bottom: 60px;
-  }
-
   .nav-link {
     color: #516381;
     border-bottom: 1px solid rgba(192, 192, 211, .2);
@@ -8074,17 +7685,6 @@ blockquote {
   .steps-card-wrapper {
     grid-row-gap: 48px;
   }
-
-  .team-wrapper {
-    padding-top: 48px;
-    padding-bottom: 140px;
-    padding-left: 36px;
-  }
-
-  .team-box {
-    grid-template-columns: 1fr 1fr;
-  }
-
   .team-image {
     min-height: 320px;
   }
@@ -8128,21 +7728,6 @@ blockquote {
   .intro-right-image {
     min-height: 200px;
   }
-
-  .featured-journal-wrapper {
-    grid-row-gap: 120px;
-    grid-template-rows: auto;
-    grid-template-columns: 1fr;
-    grid-auto-rows: 1fr;
-    margin-top: -48px;
-    margin-left: 36px;
-    padding: 24px 24px 0;
-  }
-
-  .featured-journal-wrapper.full-width {
-    padding: 24px 24px 0;
-  }
-
   .vacations-dual-grid {
     grid-template-columns: 1fr;
   }
@@ -8181,20 +7766,10 @@ blockquote {
     grid-row-gap: 48px;
     grid-template-columns: 1fr;
   }
-
-  .checkout-details {
-    padding: 36px;
-  }
-
   .order-info {
     grid-row-gap: 36px;
     padding-top: 0;
   }
-
-  .order-top-bar {
-    min-height: auto;
-  }
-
   .vacation-results {
     padding-top: 0;
     padding-left: 36px;
@@ -8247,14 +7822,6 @@ blockquote {
     padding-top: 140px;
     padding-left: 36px;
   }
-
-  .hero-video-button {
-    width: auto;
-    height: auto;
-    margin-top: 0;
-    margin-bottom: 140px;
-  }
-
   .home-hero-intro {
     text-align: left;
     margin-bottom: 140px;
@@ -8288,11 +7855,6 @@ blockquote {
   .large-journal-post {
     min-height: 375px;
   }
-
-  .journal-right-wrapper {
-    grid-row-gap: 24px;
-  }
-
   .video-icon-wrapper {
     width: 75%;
     height: 75%;
@@ -8349,11 +7911,6 @@ blockquote {
     padding-left: 36px;
     padding-right: 60px;
   }
-
-  .journal-intro {
-    padding-left: 36px;
-  }
-
   .vacation-info {
     padding-top: 60px;
   }
@@ -8365,11 +7922,6 @@ blockquote {
     margin-top: 48px;
     margin-bottom: 48px;
   }
-
-  .map-section {
-    padding-bottom: 80px;
-  }
-
   .vacation-content {
     grid-row-gap: 36px;
     grid-template-columns: 1fr;
@@ -8392,14 +7944,6 @@ blockquote {
     padding-top: 100px;
     padding-bottom: 180px;
   }
-
-  .all-journal-posts {
-    margin-left: 36px;
-  }
-  .team-member-vacations {
-    margin-left: 36px;
-  }
-
   .small-image {
     min-height: 300px;
     margin-top: 0;
@@ -8428,20 +7972,9 @@ blockquote {
   .vacation-hero {
     min-height: 600px;
   }
-
-  .journal-cards {
-    grid-template-columns: 1fr 1fr;
-  }
-
   .journal-card {
     padding-bottom: 24px;
   }
-
-  .journal-card-info {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-
   .contact-form-wrapper {
     grid-row-gap: 36px;
     grid-template-columns: 1fr;
@@ -8450,16 +7983,6 @@ blockquote {
   .form-block {
     padding: 36px;
   }
-
-  .team-intro-wrapper {
-    grid-row-gap: 36px;
-    grid-template-columns: 1fr;
-  }
-
-  .portrait-image {
-    min-height: 300px;
-  }
-
   .collection-list-wrapper {
     height: 100%;
   }
@@ -8501,30 +8024,9 @@ blockquote {
     grid-template-columns: 1fr;
     position: relative;
   }
-
-  .invoice-grid {
-    grid-row-gap: 48px;
-    grid-template-columns: 1fr;
-  }
   .order-confirmation {
     padding: 100px 36px 36px;
   }
-
-  .order-confirmation-content {
-    grid-row-gap: 24px;
-    grid-template-columns: 1fr;
-  }
-
-  .order-sticky {
-    position: relative;
-    top: 0;
-  }
-
-  .confirmation-grid {
-    grid-row-gap: 24px;
-    grid-template-columns: 1fr;
-  }
-
   .lightbox-hover-coontent {
     display: none;
   }
@@ -8584,11 +8086,6 @@ blockquote {
     padding-top: 60px;
     padding-bottom: 60px;
   }
-
-  .section.no-top-padding {
-    padding-bottom: 48px;
-  }
-
   .nav-link {
     border-top-style: none;
     border-bottom: 1px solid rgba(192, 192, 211, .2);
@@ -8695,15 +8192,6 @@ blockquote {
   .steps-card-wrapper {
     grid-row-gap: 36px;
   }
-
-  .team-wrapper {
-    padding-left: 0;
-  }
-
-  .team-box {
-    grid-template-columns: 1fr;
-  }
-
   .team-image {
     min-height: 450px;
   }
@@ -8718,17 +8206,6 @@ blockquote {
     grid-row-gap: 48px;
     grid-template-rows: 1fr auto;
   }
-
-  .featured-journal-wrapper {
-    grid-row-gap: 100px;
-    margin-left: 0;
-    padding: 24px 24px 0;
-  }
-
-  .featured-journal-wrapper.full-width {
-    margin-left: 0;
-  }
-
   .vacation-items {
     padding-left: 36px;
     padding-right: 36px;
@@ -8758,15 +8235,6 @@ blockquote {
     grid-row-gap: 24px;
     padding: 24px;
   }
-
-  .checkout-details {
-    padding: 24px;
-  }
-
-  .payment-tabs-intro {
-    grid-template-columns: 1fr;
-  }
-
   .vacation-results {
     padding-left: 0;
     padding-right: 0;
@@ -8782,11 +8250,6 @@ blockquote {
     grid-template-columns: 1fr;
     padding-left: 0;
   }
-
-  .hero-video-button {
-    margin-bottom: 48px;
-  }
-
   .home-hero-intro {
     grid-row-gap: 24px;
     text-align: center;
@@ -8821,11 +8284,6 @@ blockquote {
     padding-left: 24px;
     padding-right: 24px;
   }
-
-  .journal-right-wrapper {
-    grid-row-gap: 24px;
-  }
-
   .popular-vacations-wrapper {
     grid-template-columns: 1fr;
   }
@@ -8892,11 +8350,6 @@ blockquote {
     padding-left: 0;
     padding-right: 48px;
   }
-
-  .journal-intro {
-    padding-left: 0;
-  }
-
   .nav-button-toggle {
     padding-right: 12px;
   }
@@ -8919,12 +8372,7 @@ blockquote {
     margin-bottom: 48px;
     margin-left: 0;
   }
-
-  .map-section {
-    padding-bottom: 60px;
-  }
-
-  .map-wrapper, .vacation-content {
+  .vacation-content {
     margin-left: 0;
   }
 
@@ -8935,11 +8383,6 @@ blockquote {
   .team-banner {
     padding-bottom: 160px;
   }
-
-  .all-journal-posts, .team-member-vacations {
-    margin-left: 0;
-  }
-
   .dual-buttons {
     grid-template-columns: 1fr;
   }
@@ -8957,11 +8400,6 @@ blockquote {
     padding-top: 60px;
     padding-bottom: 60px;
   }
-
-  .journal-cards {
-    grid-template-columns: 1fr;
-  }
-
   .form-block {
     padding: 24px;
   }
@@ -8998,11 +8436,6 @@ blockquote {
   .row {
     flex-direction: column;
   }
-
-  .order-summary {
-    margin-bottom: 0;
-  }
-
   .order-confirmation {
     padding-bottom: 24px;
     padding-left: 24px;
@@ -9012,12 +8445,6 @@ blockquote {
   .order-left {
     padding: 24px;
   }
-
-  .invoice-vacation {
-    text-align: center;
-    padding-left: 0;
-  }
-
   .testimonial-section {
     padding-top: 140px;
   }
@@ -9180,19 +8607,6 @@ blockquote {
   .benefit-card, .intro-content {
     grid-row-gap: 36px;
   }
-
-  .featured-journal-wrapper {
-    margin-bottom: 0;
-    padding-top: 12px;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-
-  .featured-journal-wrapper.full-width {
-    grid-row-gap: 120px;
-    padding: 12px 12px 0;
-  }
-
   .vacation-items {
     padding-left: 24px;
     padding-right: 24px;
@@ -9210,38 +8624,9 @@ blockquote {
   .checkout-form {
     padding: 36px 12px 12px;
   }
-
-  .checkout-details {
-    grid-row-gap: 36px;
-    padding: 18px;
-  }
-
-  .order-top-bar {
-    grid-template-columns: 1fr;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-  .payment-tab-content {
-    grid-row-gap: 24px;
-  }
-
-  .payment-info-wrapper {
-    grid-row-gap: 36px;
-  }
-
-  .payment-tabs-intro {
-    grid-row-gap: 24px;
-  }
-
   .customer-info {
     padding: 18px;
   }
-
-  .order-item {
-    grid-template-columns: 1fr;
-  }
-
   .vacation-slide-arrow {
     left: -60px;
     right: 0;
@@ -9261,12 +8646,6 @@ blockquote {
     padding-top: 136px;
     padding-bottom: 136px;
   }
-
-  .hero-video-button {
-    margin-bottom: 12px;
-    display: flex;
-  }
-
   .home-hero-intro {
     margin-bottom: 0;
   }
@@ -9306,34 +8685,10 @@ blockquote {
     padding-left: 12px;
     padding-right: 12px;
   }
-
-  .journal-post-info {
-    padding: 0 18px 18px;
-  }
-
-  .journal-right-wrapper {
-    grid-row-gap: 18px;
-  }
-
   .journal-list-item {
     grid-row-gap: 0px;
     grid-template-columns: 1fr;
   }
-
-  .journal-list-image {
-    min-height: 140px;
-  }
-
-  .journal-list-item-content {
-    z-index: 10;
-    grid-row-gap: 18px;
-    margin-top: -12px;
-    padding-top: 0;
-    padding-left: 12px;
-    padding-right: 12px;
-    position: relative;
-  }
-
   .video-icon-wrapper {
     width: 75%;
     height: 75%;
@@ -9460,16 +8815,6 @@ blockquote {
     margin-top: 24px;
     margin-bottom: 36px;
   }
-
-  .map-section {
-    padding-top: 36px;
-    padding-bottom: 48px;
-  }
-
-  .map-wrapper {
-    min-height: 250px;
-  }
-
   .featured-location-heading {
     font-size: 18px;
   }
@@ -9785,12 +9130,6 @@ blockquote {
 #w-node-_997e4316-3809-459f-0550-db78bd9b6f0c-100c7e35 {
   grid-area: 1 / 4 / 2 / 5;
 }
-
-#w-node-d5cb7e54-02ce-4aa9-84b2-096ae6645ef5-100c7e35, #w-node-d86ed033-6748-7d0c-1688-f5aaa5a6264b-100c7e35, #w-node-e44119d0-4aa0-47d3-c3c7-943b58ecd7f5-100c7e35, #w-node-_07f7822a-effe-0e5a-b64e-5c72915fe726-100c7e35 {
-  align-self: center;
-  justify-self: start;
-}
-
 #w-node-_0ec51e82-e255-1b52-e2d8-8f022c520994-100c7e35 {
   grid-area: 1 / 1 / 2 / 4;
 }
