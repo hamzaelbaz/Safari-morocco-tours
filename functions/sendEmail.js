@@ -19,7 +19,7 @@ exports.handler = async function (event, context) {
 
         let message = {
             from: 'elbazhamzahb@gmail.com',
-            to: 'elbazhamza77@gmail.com',
+            to: 'touaregtoursmorocco@gmail.com',
             subject: 'Email de Contact',
             text: 'Hello world?',
             html: `
@@ -369,7 +369,7 @@ Le nom : ${firstNames+" "+ lastNames} <br>Email : ${emails} <br> telephone : ${t
                 <tr>
                   <td class="content-block">
                     <span class="apple-link">Email de réservation</span>
-                    <br> <a href="https://marrakechtransports.com/">marrakechtransports.com/</a>.
+                    <br> <a href="https://safari-morocco-tours.com/">safari-morocco-tours.com/</a>.
                   </td>
                 </tr>
               </table>
