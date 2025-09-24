@@ -4828,7 +4828,7 @@ blockquote {
     display: flex;
     flex-direction: column;
     position: fixed;
-    bottom: 1rem;
+    bottom: 1.5rem;
     right: 16px;
     z-index: 1000;
     background: #995f3a;
