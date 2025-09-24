@@ -4833,6 +4833,10 @@ blockquote {
     z-index: 1000;
     background: #995f3a;
     padding: 1rem 1.5rem;
+    border-radius: .75rem;
+}
+.social-media-icons a {
+    margin-top: .4rem;
 }
 .social-media-icons img {
     width: 40px;
