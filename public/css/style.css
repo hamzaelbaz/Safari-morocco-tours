@@ -4841,6 +4841,9 @@ blockquote {
 .social-media-icons img {
     width: 40px;
 }
+.social-media-icons img:hover {
+    transform: scale(1.2);
+}
 .footer-link {
 	width: 100%;
 	color: #995f3a;
