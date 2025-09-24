@@ -4831,7 +4831,9 @@ blockquote {
     bottom: 1rem;
     right: 16px;
     z-index: 1000;
-
+}
+.social-media-icons img {
+    width: 32px;
 }
 .footer-link {
 	width: 100%;
