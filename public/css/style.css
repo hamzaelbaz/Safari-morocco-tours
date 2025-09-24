@@ -4831,6 +4831,8 @@ blockquote {
     bottom: 1rem;
     right: 16px;
     z-index: 1000;
+    background: #995f3a;
+    padding: 1rem 1.5rem;
 }
 .social-media-icons img {
     width: 32px;
