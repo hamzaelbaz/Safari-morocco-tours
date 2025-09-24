@@ -4830,6 +4830,7 @@ blockquote {
     position: fixed;
     bottom: 1rem;
     right: 16px;
+    z-index: 1000;
 
 }
 .footer-link {
