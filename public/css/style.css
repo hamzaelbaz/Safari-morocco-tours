@@ -4840,6 +4840,7 @@ blockquote {
 }
 .social-media-icons img {
     width: 40px;
+    transition: all 500s ease-in-out;
 }
 .social-media-icons img:hover {
     transform: scale(1.2);
